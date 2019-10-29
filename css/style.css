@@ -1,0 +1,89 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/argen\/Desktop\/MODULE\/css\/style\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/argen\/Desktop\/MODULE\/css\/style\.scss}line{font-family:\000035}}
+div {
+  width: 10%;
+  height: 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/argen\/Desktop\/MODULE\/css\/style\.scss}line{font-family:\000039}}
+.first_oval {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: green;
+  border-radius: 50%;
+  -webkit-animation: mscf 10s linear;
+          animation: mscf 10s linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/argen\/Desktop\/MODULE\/css\/style\.scss}line{font-family:\0000317}}
+.second_oval {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red;
+  border-radius: 50%;
+  -webkit-animation: mscs 10s linear;
+          animation: mscs 10s linear; }
+
+@-webkit-keyframes mscf {
+  from {
+    margin: 0; }
+  50% {
+    margin: 90vh 0  0 90vw;
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); }
+  75% {
+    margin: 50vh 0 0 90vw; }
+  90% {
+    margin: 50vh 0 0 45vw; }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+
+@keyframes mscf {
+  from {
+    margin: 0; }
+  50% {
+    margin: 90vh 0  0 90vw;
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); }
+  75% {
+    margin: 50vh 0 0 90vw; }
+  90% {
+    margin: 50vh 0 0 45vw; }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+@-webkit-keyframes mscs {
+  from {
+    margin: 0; }
+  50% {
+    margin: 0 0 90vh 90vw;
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); }
+  75% {
+    margin: 0 0 50vh 90vw; }
+  90% {
+    margin: 0 0 50vh 45vw; }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+@keyframes mscs {
+  from {
+    margin: 0; }
+  50% {
+    margin: 0 0 90vh 90vw;
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); }
+  75% {
+    margin: 0 0 50vh 90vw; }
+  90% {
+    margin: 0 0 50vh 45vw; }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+
+/*# sourceMappingURL=style.css.map */

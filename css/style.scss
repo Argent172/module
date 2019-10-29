@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 10%;
+	height: 10%;
+}
+.first_oval{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: green;
+	border-radius: 50%;
+	animation: mscf 10s linear;
+}
+.second_oval{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: red;
+	border-radius: 50%;
+	animation: mscs 10s linear;
+}
+
+@keyframes mscf{
+	from{margin:0;}
+	50%{margin: 90vh 0  0 90vw;
+		transform: rotate(720deg);}
+	75%{margin: 50vh 0 0 90vw;}
+	90%{margin: 50vh 0 0 45vw;}
+	100%{transform: rotate(720deg);}
+}
+@keyframes mscs{
+	from{margin:0;}
+	50%{margin: 0 0 90vh 90vw;
+		transform: rotate(720deg);}
+	75%{margin: 0 0 50vh 90vw;}
+	90%{margin: 0 0 50vh 45vw;}
+	100%{transform: rotate(720deg);}
+
+	}
